@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+  database: restforce_development
+  username: postgres
+  password: postgres
+  host: localhost     #defaults to 127.0.0.1           
