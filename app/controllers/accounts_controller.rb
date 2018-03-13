@@ -3,7 +3,7 @@ class AccountsController < ApplicationController
   before_action :salesforce
 
   def show
-    @accounts = salesforce.query("select Id, Name, Website, Phone from Account limit 5")
+    @accounts = salesforce.query("select Title, Email, Phone from Contact limit 5")
   end
 
   private
