@@ -1,0 +1,26 @@
+<%= render "navs/navbar" %>
+
+<div class="clearfix"></div>
+<div id="accounts-container">
+  <div class="container" style="padding-top: 125px;">
+    <h1>Contacts</h1>
+    <table class="table table-inverse">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @contacts.each do |contact| %>
+          <tr>
+            <td><%= contact.Title %></td>
+            <td><%= contact.Email %></td>
+            <td><%= contact.Phone %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

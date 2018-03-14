@@ -3,21 +3,21 @@
 <div class="clearfix"></div>
 <div id="accounts-container">
   <div class="container" style="padding-top: 125px;">
-    <h1>Contacts</h1>
+    <h1>Products</h1>
     <table class="table table-inverse">
       <thead>
         <tr>
-          <th>Title</th>
-          <th>Email</th>
-          <th>Phone</th>
+          <th>Name</th>
+          <th>Product Code</th>
+          <th>StockKeepingUnit</th>
         </tr>
       </thead>
       <tbody>
-        <% @accounts.each do |account| %>
+        <% @products.each do |product| %>
           <tr>
-            <td><%= account.Title %></td>
-            <td><%= account.Email %></td>
-            <td><%= account.Phone %></td>
+            <td><%= product.Name %></td>
+            <td><%= product.product_code %></td>
+            <td><%= product.stock_keeping_unit %></td>
           </tr>
         <% end %>
       </tbody>

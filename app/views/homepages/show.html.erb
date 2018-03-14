@@ -25,8 +25,9 @@
           </tr>
         </tbody>
       </table>
-      <%= link_to "Display Contacts", accounts_path, class: "btn btn-lg btn-primary" %>
-      <%= @accounts %>
+      <%= link_to "Display Contacts", contacts_path, class: "btn btn-lg btn-primary" %>
+      <%= link_to "Display Products", products_path, class: "btn btn-lg btn-primary" %>
+      <%= @contacts %>
     <% else %>
       <h1 class="display-3 text-center">Not Logged In</h1>
       <p class="lead text-center">You are not authenticated with Salesforce OAuth yet.</p>
