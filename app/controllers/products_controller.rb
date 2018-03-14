@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
   def show
-    @products = salesforce.query("select * from Product2 limit 5")
+    @products = salesforce.query("select name, id from Product2")
   end
 end

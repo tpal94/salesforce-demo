@@ -8,16 +8,12 @@
       <thead>
         <tr>
           <th>Name</th>
-          <th>Product Code</th>
-          <th>StockKeepingUnit</th>
         </tr>
       </thead>
       <tbody>
         <% @products.each do |product| %>
           <tr>
             <td><%= product.Name %></td>
-            <td><%= product.product_code %></td>
-            <td><%= product.stock_keeping_unit %></td>
           </tr>
         <% end %>
       </tbody>
