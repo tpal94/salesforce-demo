@@ -1,5 +1,8 @@
 # Restforce-omniauth-salesforce-demo-app
 
+Deploying on the any platform will works to fetch the info from the diffrents content.
+
+
 ## Getting Started
 
 After you have cloned this repo, run this setup script to set up your machine
@@ -34,3 +37,13 @@ you can deploy to staging and production with:
 
     $ ./bin/deploy staging
     $ ./bin/deploy production
+
+
+
+
+About Heroku Demo URL:
+
+https://intense-bastion-87020.herokuapp.com/
+
+
+Currently Heroku doesnot have latest code of products and After fix of Permission will deploy on following project.
